@@ -12,14 +12,7 @@ const Search = () => {
     const params = useParams()
 
     useEffect(() => {
-        const interval = setTimeout(() => {
-            searchMovies(params.keyword)
-        }, 2000);
-
-        return () => {
-            clearInterval(interval)
-        }
-
+        searchMovies(params.keyword)
     }, [])
 
 

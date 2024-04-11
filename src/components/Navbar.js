@@ -11,7 +11,7 @@ function Navbar() {
 
   return (
     <header>
-      <h3>Movie War</h3>
+      <h3>Movie Db</h3>
       <div className="navbar-div">
         <nav ref={navRef}>
           <a href="/">Popular</a>
